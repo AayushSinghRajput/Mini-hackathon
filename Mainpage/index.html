@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hackathon Project</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="main-container">
+        <nav class="navbar">
+            <div class="navbar-left">
+                <img src="logo.png" alt="Company Logo" class="logo">
+            </div>
+            <div class="navbar-middle">
+                <a href="#" aria-label="Home">Home</a>
+                <a href="#" aria-label="About Us">About Us</a>
+                <a href="#" aria-label="Products">Products</a>
+            </div>
+            <div class="navbar-right">
+                <input type="file" id="fileUpload" accept=".pdf" aria-label="Upload PDF">
+            </div>
+        </nav>
+        <div class="container1" aria-label="Container 1">
+            <!-- Container 1 map content will go here -->
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2429968.9851966226!2d84.43588446069404!3d28.280566512596714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2snp!4v1716439489014!5m2!1sen!2snp" width="1044" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+        </div>
+        <button class="search-button" aria-label="Search">Search</button>
+        <div class="container2" aria-label="Business Container">
+            <h2>Business</h2>
+            <div class="card-container">
+                <!-- Business cards will be dynamically added here -->
+                <div class="card" style="width: 18rem;">
+                    <img src="grocery.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Grocery Store</h5>
+                        <p class="card-text">A local grocery store boosts community engagement, supports nearby farmers,
+                            offers personalized service, fosters customer loyalty, and drives local economy growth
+                            through job creation and neighborhood investment.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="dairy.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Dairy Store</h5>
+                        <p class="card-text">A dairy store offers fresh, locally sourced milk and dairy products,
+                            supporting community agriculture and providing a personalized shopping experience.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="chocolate.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Chocolate Store</h5>
+                        <p class="card-text">A local chocolate store offers unique, artisanal products, builds community
+                            connections, and attracts loyal customers with personalized service and quality.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="bread.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Bread Store</h5>
+                        <p class="card-text">A local bread store offers freshly baked goods, fosters community, supports
+                            local economy, and attracts loyal customers with unique, artisanal products.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="ceramic.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Ceramic Store</h5>
+                        <p class="card-text">A local ceramic store offers handcrafted pottery, personalized service,
+                            community workshops, unique designs, and supports local artisans, enhancing neighborhood
+                            culture.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="honey.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Honey Store</h5>
+                        <p class="card-text">A honey store boosts local economy by supporting beekeepers, offering
+                            unique products, and attracting eco-conscious customers with natural, artisanal goods.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="egg.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Egg Store</h5>
+                        <p class="card-text">An egg store offers fresh, locally sourced eggs, supporting community
+                            agriculture and providing quality products for health-conscious consumers.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="rice.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Rice Store</h5>
+                        <p class="card-text">A local rice store provides fresh, high-quality rice varieties, supports
+                            community farmers, and fosters personal connections with loyal customers.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+
+
+
+
+
+
+            </div>
+            <button class="add-more-button" aria-label="Add More Business">Add More</button>
+        </div>
+        <footer class="footer">
+            <p>&copy; 2024 Company Name. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <div class="modal" id="businessModal" aria-hidden="true">
+        <div class="modal-content">
+            <span class="close-button" id="closeModal">&times;</span>
+            <h2>Add Business</h2>
+
+
+            <form id="businessForm">
+                <label for="businessName">Business Name:</label>
+                <input type="text" id="businessName" name="businessName" required>
+                <label for="businessImage">Business Image URL:</label>
+                <input type="url" id="businessImage" name="businessImage" required>
+                <label for="businessDescription">Business Description:</label>
+                <textarea id="businessDescription" name="businessDescription" required></textarea>
+                <button type="submit">Add Business</button>
+            </form>
+        </div>
+    </div>
+
+
+</body>
+<script src="scripts.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"></script>
+
+</html>
